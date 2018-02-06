@@ -1,0 +1,34 @@
+{
+  "name": "itlandingpage",
+  "version": "0.1.0",
+  "description": "IT Landing Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --files 'css/*.css', 'js/*.js', *.html",
+    "stylus": "stylus -u nib -w -o css/chewiekie.css index.styl",
+    "compile": "uglifyjs index.js -c -o js/bundle.js"
+  },
+  "keywords": [
+    "landingpage",
+    "Techonology",
+    "Code"
+  ],
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "nib": "^1.1.2",
+    "stylus": "^0.54.5",
+    "uglify-js": "^3.3.9"
+  },
+  "author": "Oscar Barajas <oscar@dragons.mx>",
+  "license": "MIT",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gndx/TechLandingPage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gndx/TechLandingPage/issues"
+  },
+  "homepage": "https://github.com/gndx/TechLandingPage#readme"
+}
