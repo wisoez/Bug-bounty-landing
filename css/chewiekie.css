@@ -11,7 +11,8 @@ html {
   height: 100% !important;
 }
 Header {
-  background: url("http://s3.amazonaws.com/chewiekie/img/chewiekie-bg-macbook.jpeg") center center no-repeat;
+  /* background: url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80") center center no-repeat; */
+  background: url("../background.jpg") center center no-repeat;
   background-size: cover;
   min-height: 100%;
   z-index: -9999;
@@ -23,7 +24,8 @@ Header:before {
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: radial-gradient(circle, #ff6050, #000);
+  /* background-image: radial-gradient(circle, #ff6050, #000); */
+  background-image: radial-gradient(circle, #1c66aa, #000);
   opacity: 0.6;
 }
 Header .content {
